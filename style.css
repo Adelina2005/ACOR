@@ -38,7 +38,7 @@ h2{
     position: absolute;
     margin-left: 50px;
     font-size: 23px;
-    margin-top: 350px;
+    margin-top: 360px;
     color: rgb(255, 255, 255);  
 }
 
@@ -618,7 +618,7 @@ label, a{ /*при наведении на стрелки или переклю�
     }
 
     .facts {
-    width: 370px;
+    width: 375px;
     height: 500px;
     margin-top: 70px;
     }
@@ -681,7 +681,7 @@ label, a{ /*при наведении на стрелки или переклю�
     #switch3:checked ~ #controls label:nth-child(2),
     #switch4:checked ~ #controls label:nth-child(3),
     #switch5:checked ~ #controls label:nth-child(4){  
-    margin:-65px;
+    margin:-60px;
     margin-top: -30px;
     }
 
@@ -690,7 +690,7 @@ label, a{ /*при наведении на стрелки или переклю�
     #switch3:checked ~ #controls label:nth-child(4),
     #switch4:checked ~ #controls label:nth-child(5),
     #switch5:checked ~ #controls label:nth-child(1){ 
-    margin:-65px;
+    margin:-60px;
     margin-top: -30px;
     }
 
