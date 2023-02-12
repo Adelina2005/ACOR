@@ -1,0 +1,809 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    margin-left: 50px;
+    font-size: 40px;
+    margin-top: 15px;
+    color: white; 
+}
+
+
+.header {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+h2{
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    margin-left: 50px;
+    font-size: 25px;
+    margin-top: 300px;
+    color: white;
+}
+
+.info {
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    margin-left: 50px;
+    font-size: 23px;
+    margin-top: 350px;
+    color: rgb(255, 255, 255);  
+}
+
+.buy {
+    background: transparent;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    width: 216px;
+    text-align: center;
+    position: absolute;
+    margin-top: -300px;
+    border: 2px solid #ffffff;
+    margin-left: 50px;
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    color: #ffffff;
+    position: fixed; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); /* фон */
+    opacity: 0; /* по умолчанию модальное окно прозрачно */
+    transition: opacity 200ms ease-in; /* анимация перехода */
+    pointer-events: none; /* элемент невидим для событий мыши */
+}
+/* При отображении модального окно */
+.modal:target {
+    opacity: 1; /* делаем окно видимым */
+	pointer-events: auto; /* элемент видим для событий мыши */
+}
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog {
+    position: relative;
+} 
+
+.modal-dialog {
+      width: 450px;
+      margin: 200px auto; /* отображение окна по центру */
+}
+
+/* Стили для блока с контентом окна */ 
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: .3rem;
+    background-image: url(photo1.jpg);
+}
+
+/* Стили заголовка окна */
+.modal-header {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+}
+
+/* Стили кнопки "х" ("Закрыть")  */
+.close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    opacity: .5;
+    text-decoration: none;
+}
+/* Стили для закрывающей кнопки в фокусе или наведении */
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 75;
+}
+/* Стили блока основного содержимого окна */
+.modal-body {
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 50px;
+    height: 200px;
+}
+
+.photo1 {
+    width: 250px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 420px;
+    filter: grayscale(100%); 
+}
+
+.square {
+    width: 650px;
+    height: 352px;
+    border: 4px solid rgb(50, 50, 50);
+    margin-bottom: 150px;
+    margin-left: 420px;
+    position: absolute;
+    margin-top: -355px;
+    border-radius: 5px; 
+}
+
+.about_us {
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    margin-left: 680px;
+    font-size: 25px;
+    margin-top: -340px;
+    color: rgb(112, 110, 110);
+    text-decoration: underline;
+}
+
+.info_about_us {
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    margin-left: 680px;
+    font-size: 20px;
+    margin-top: -300px;
+    color: rgb(112, 110, 110);
+    width: 370px;
+    height: 250px;
+}
+
+.facts {
+    background: rgb(112, 110, 110);
+    width: 1470px;
+    height: 300px;
+    margin-top: 60px;
+}
+
+.fa-check-square {
+    font-size: 100px;
+    margin-left: 50px;
+    position: absolute;
+    margin-top: -190px;
+}
+
+.Quality_assurance {
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    margin-left: 160px;
+    font-size: 20px;
+    margin-top: -175px;
+    color: rgb(255, 255, 255);
+}
+
+.coment1 {
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    margin-left: 160px;
+    font-size: 15px;
+    margin-top: -140px;
+    color: rgb(255, 255, 255);
+}
+
+.fa-camera-retro {
+    font-size: 100px;
+    margin-left: 500px;
+    position: absolute;
+    margin-top: -190px;
+}
+
+.Photo_report {
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    margin-left: 630px;
+    font-size: 20px;
+    margin-top: -175px;
+    color: rgb(255, 255, 255);
+}
+
+.coment2 {
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    margin-left: 630px;
+    font-size: 15px;
+    margin-top: -140px;
+    color: rgb(255, 255, 255);
+}
+
+.fa-gift {
+    font-size: 100px;
+    margin-left: 1000px;
+    position: absolute;
+    margin-top: -190px;
+}
+
+.present {
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    margin-left: 1120px;
+    font-size: 20px;
+    margin-top: -175px;
+    color: rgb(255, 255, 255);
+}
+
+.coment3 {
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    margin-left: 1120px;
+    font-size: 15px;
+    margin-top: -140px;
+    color: rgb(255, 255, 255);
+}
+
+.catalog {
+    font-size: 70px;
+    color: rgb(112, 110, 110);
+    margin-top: -150px;
+    margin-left: 130px;
+    text-decoration: underline;
+}
+
+.all {
+    margin-top: 100px;
+    width: 400px;
+    margin-left: 90px;
+}
+
+#slides article{ /*все изображения справа друг от доруга*/
+	width: 20%;
+	float: left;
+}
+
+#slides .image{ /*устанавливает общий размер блока с изображениями*/
+	width: 500%;
+    line-height: 0;
+}
+
+#overflow{ /*сркывает все, что находится за пределами этого блока*/
+	overflow: hidden;
+    width: 100%;
+}
+
+article img{ /*размер изображений слайдера*/
+	width: 100%;
+}
+
+/*настройка переключения и положения для левой стрелки*/
+/*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
+#switch1:checked ~ #controls label:nth-child(5),
+#switch2:checked ~ #controls label:nth-child(1), 
+#switch3:checked ~ #controls label:nth-child(2),
+#switch4:checked ~ #controls label:nth-child(3),
+#switch5:checked ~ #controls label:nth-child(4){
+	background: url('prev (1).png') no-repeat; /*заливка фона картинкой без повторений*/
+	float: left;
+	margin: 0 0 0 -84px; /*сдвиг влево*/
+	display: block;
+	height: 68px;
+	width: 68px;
+}
+
+/*настройка переключения и положения для правой стрелки*/
+#switch1:checked ~ #controls label:nth-child(2), 
+#switch2:checked ~ #controls label:nth-child(3),
+#switch3:checked ~ #controls label:nth-child(4),
+#switch4:checked ~ #controls label:nth-child(5),
+#switch5:checked ~ #controls label:nth-child(1){
+	background: url('next (2).png') no-repeat; /*заливка фона картинкой без повторений*/
+	float: right;
+	margin: 0 -84px 0 0; /*сдвиг вправо*/
+	display: block;
+	height: 68px;
+	width: 68px;
+}
+
+label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+	cursor: pointer;
+}
+
+.all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
+	display: none;
+}
+
+/*позиция изображения при активации переключателя*/
+#switch1:checked ~ #slides .image{
+	margin-left: 0;
+}
+
+#switch2:checked ~ #slides .image{
+	margin-left: -100%;
+}
+
+#switch3:checked ~ #slides .image{
+	margin-left: -200%;
+}
+
+#switch4:checked ~ #slides .image{
+	margin-left: -300%;
+}
+
+#switch5:checked ~ #slides .image{
+	margin-left: -400%;
+}
+
+#controls{ /*положение блока всех управляющих элементов*/
+	margin: -65% 0 0 0;
+	width: 100%;
+}
+
+#active label{ /*стиль отдельного переключателя*/
+	border-radius: 10px; /*скругление углов*/
+	display: inline-block; /*расположение в строку*/
+	width: 15px;
+	height: 15px;
+	background: #bbb;
+}
+
+#slides .image{ /*анимация пролистывания изображений*/
+	transition: all 1000ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#controls label:hover{ /*прозрачность стрелок при наведении*/
+	opacity: 0.6;
+}
+
+#controls label{ /*прозрачность стрелок при отводе курсора*/
+	transition: opacity 0.2s ease-out;
+}
+
+.our_mission {
+    font-size: 40px;
+    margin-left: 800px;
+    margin-top: -100px;
+    color: rgb(112, 110, 110);
+    text-decoration: underline;
+    font-family: 'Aboreto', cursive;
+}
+
+.our_mission_text {
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: -100px;
+    color: rgb(112, 110, 110); 
+    margin-bottom: 300px;
+}
+
+.footer {
+    background: rgb(112, 110, 110);
+    width: 1470px;
+    height: 328px;
+    margin-top: -100px;
+    font-family: 'Aboreto', cursive;
+}
+
+.footer_logo {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 50px;   
+}
+
+.footer_info_sait1 {
+    margin-top: 90px;
+    position: absolute;
+    margin-left: 400px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none; 
+}
+
+.footer_info_sait2 {
+    margin-top: 140px;
+    position: absolute;
+    margin-left: 400px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none; 
+}
+
+.footer_info_sait3 {
+    margin-top: 190px;
+    position: absolute;
+    margin-left: 400px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none; 
+}
+
+.footer_info_sait4 {
+    margin-top: 240px;
+    position: absolute;
+    margin-left: 400px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none; 
+}
+
+.footer_info_sait5 {
+    margin-top: 290px;
+    position: absolute;
+    margin-left: 400px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none; 
+}
+
+.footer_info1{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 800px;
+    margin-top: 90px;
+    color: white;
+    font-weight: normal;
+}
+
+.footer_info2{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 800px;
+    margin-top: 140px;
+    color: white;
+    font-weight: normal;
+}
+
+.footer_info3{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 800px;
+    margin-top: 190px;
+    color: white;
+    font-weight: normal;
+}
+
+.footer_info4{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 800px;
+    margin-top: 240px;
+    color: white;
+    font-weight: normal;
+}
+
+.fa-whatsapp {
+    font-size: 40px;
+    margin-top: -40px;
+    margin-left: 800px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+}
+
+.fa-instagram {
+    font-size: 40px;
+    margin-top: -40px;
+    margin-left: 920px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+}
+
+.fa-vk {
+    font-size: 40px;
+    margin-top: -40px;
+    margin-left: 860px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+}
+
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
+
+   
+}
+
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+   
+}
+
+@media (max-width: 667px) {
+   .header {
+    height: 667px;
+    width: 375px;
+    }
+
+    h1 {
+    margin-left: 20px;
+    font-size: 40px;
+    }
+    
+    h2 {
+    text-decoration: underline;
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 250px;
+    }
+    
+    .info {
+    width: 350px;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 300px;
+    }
+
+    .modal {
+    width: 375px;
+    height: 667px;
+    position: absolute;
+    }
+
+    .modal-content {
+    margin-left: -5px;
+    }
+    
+    .modal-dialog {
+    width: 250px;
+    margin: 200px auto; /* отображение окна по центру */
+    }
+    
+    .modal-header {
+    font-size: 25px;
+    padding: 10px;
+    }
+    
+    .modal-body {
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    height: 200px;
+    }
+    
+    .buy {
+    font-size: 17px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: -250px;
+    width: 150px;
+    }
+
+    .square {
+    width: none;
+    height: none;
+    border: none;
+    margin-bottom: none;
+    margin-left: none;
+    position: none;
+    margin-top: none;
+    border-radius: none; 
+    }
+
+    .about_us{
+    margin-left: 115px;
+    font-size: 25px;
+    margin-top: -280px;
+    }
+
+    .photo1 {
+    margin-left: 60px;
+    width: 250px;
+    height: 300px;
+    margin-bottom: 300px;
+    }
+
+    .info_about_us {
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: -240px;
+    }
+
+    .facts {
+    width: 370px;
+    height: 500px;
+    margin-top: 70px;
+    }
+
+    .Quality_assurance {
+    margin-left: 136px;
+    margin-top: -435px;
+    }
+
+    .coment1 {
+    margin-left: 135px;    
+    margin-top: -405px;
+    }
+
+    .fa-check-square {
+    margin-top: -450px;
+    margin-left: 32px;
+    }
+
+    .Photo_report {
+    margin-left: 136px;
+    margin-top: -290px;
+    }
+    
+    .coment2 {
+    margin-left: 135px;    
+    margin-top: -260px;
+    font-size: 14px;
+    }
+    
+    .fa-camera-retro {
+    margin-top: -300px;
+    margin-left: 25px;
+    }
+
+    .present {
+    margin-left: 136px;
+    margin-top: -127px;
+    }
+        
+    .coment3 {
+    margin-left: 135px;    
+    margin-top: -95px;
+    font-size: 14px;
+    }
+        
+    .fa-gift {
+    margin-top: -150px;
+    margin-left: 25px;
+    }
+
+    .all {
+    width: 250px;
+    margin-left: 60px;
+    margin-top: 50px;
+    }
+
+    #switch1:checked ~ #controls label:nth-child(5),
+    #switch2:checked ~ #controls label:nth-child(1), 
+    #switch3:checked ~ #controls label:nth-child(2),
+    #switch4:checked ~ #controls label:nth-child(3),
+    #switch5:checked ~ #controls label:nth-child(4){  
+    margin:-65px;
+    margin-top: -30px;
+    }
+
+    #switch1:checked ~ #controls label:nth-child(2), 
+    #switch2:checked ~ #controls label:nth-child(3),
+    #switch3:checked ~ #controls label:nth-child(4),
+    #switch4:checked ~ #controls label:nth-child(5),
+    #switch5:checked ~ #controls label:nth-child(1){ 
+    margin:-65px;
+    margin-top: -30px;
+    }
+
+    .our_mission {
+    margin-left: 80px;
+    font-size: 30px;
+    margin-top: 210px;
+    }
+
+    .our_mission_text {
+    margin-left: 7px;
+    font-size: 24px;
+    margin-top: 270px;
+    width: 360px;
+    }
+
+    .footer {
+    height: 350px;
+    width: 375px;
+    margin-top: -220px;
+    }
+
+    .footer_logo {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 20px;
+    }
+
+    .footer_info_sait1 {
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 20px;
+    }
+
+    .footer_info_sait2 {
+    margin-top: 140px;
+    margin-left: 20px;
+    font-size: 20px;
+    }
+
+    .footer_info_sait3 {
+    margin-top: 180px;
+    margin-left: 20px;
+    font-size: 20px;
+    }
+
+    .footer_info_sait4 {
+    margin-top: 220px;
+    margin-left: 20px;
+    font-size: 20px;
+    }
+            
+    .footer_info_sait5 {
+    margin-top: 260px;
+    margin-left: 20px;
+    font-size: 20px;
+    }  
+    
+    .footer_info1{
+    font-size: 18px;
+    margin-left: 180px;
+    margin-top: 40px;
+    }
+
+    .footer_info2{
+    font-size: 18px;
+    margin-left: 180px;
+    margin-top: 100px;
+    }
+
+    .footer_info3{
+    font-size: 18px;
+    margin-left: 180px;
+    margin-top: 180px;
+    }
+
+    .footer_info4{
+    font-size: 18px;
+    margin-left: 180px;
+    margin-top: 240px;
+    }
+
+    .fa-whatsapp {
+    font-size: 45px;
+    margin-top: -50px;
+    margin-left: 180px;
+    }
+
+    .fa-instagram {
+    font-size: 45px;
+    margin-top: -50px;
+    margin-left: 300px;
+    }
+
+    .fa-vk {
+    font-size: 45px;
+    margin-top: -50px;
+    margin-left: 240px;
+    }
+}
+
+
+
+    
+
+/* Extra small: 0px (320px) - 575px */
+
+
+
+
+
+
+
+
+
+
