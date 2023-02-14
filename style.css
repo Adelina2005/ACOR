@@ -791,57 +791,57 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 @media (max-width: 667px) {
-   .header {
+    .header {
     height: 667px;
     width: 375px;
     }
-
+    
     h1 {
     margin-left: 20px;
     font-size: 40px;
     }
-    
+        
     h2 {
     text-decoration: underline;
     margin-left: 20px;
     font-size: 25px;
     margin-top: 250px;
     }
-    
+        
     .info {
     width: 350px;
     margin-left: 20px;
     font-size: 20px;
     margin-top: 300px;
     }
-
+    
     .modal {
     width: 375px;
     height: 667px;
     position: absolute;
     }
-
+    
     .modal-content {
     margin-left: -5px;
     }
-    
+        
     .modal-dialog {
     width: 250px;
-    margin: 200px auto; /* отображение окна по центру */
+    margin: 200px auto; 
     }
-    
+        
     .modal-header {
     font-size: 25px;
     padding: 10px;
     }
-    
+        
     .modal-body {
     margin-left: 10px;
     font-size: 20px;
     margin-top: 20px;
     height: 200px;
     }
-    
+        
     .buy {
     font-size: 17px;
     padding: 10px;
@@ -849,7 +849,7 @@ label, a{ /*при наведении на стрелки или переклю�
     margin-top: -250px;
     width: 150px;
     }
-
+    
     .square {
     margin-top: -250px;
     width: 360px;
@@ -857,86 +857,86 @@ label, a{ /*при наведении на стрелки или переклю�
     margin-left: 5px; 
     border: 2px solid rgb(255, 255, 255);
     }
-    
+        
     .about_us{
     margin-left: 115px;
     font-size: 25px;
     margin-top: -280px;
     }
-
+    
     .photo1 {
     margin-left: 60px;
     width: 250px;
     height: 300px;
     margin-bottom: 300px;
     }
-
+    
     .info_about_us {
     margin-left: 10px;
     font-size: 20px;
     margin-top: -240px;
     width: 365px;
     }
-
+    
     .facts {
     width: 375px;
     height: 500px;
     margin-top: 100px;
     }
-
+    
     .Quality_assurance {
     margin-left: 136px;
     margin-top: -435px;
     }
-
+    
     .coment1 {
     margin-left: 135px;    
     margin-top: -405px;
     }
-
+    
     .fa-check-square {
     margin-top: -450px;
     margin-left: 22px;
     }
-
+    
     .Photo_report {
     margin-left: 136px;
     margin-top: -290px;
     }
-    
+        
     .coment2 {
     margin-left: 135px;    
     margin-top: -260px;
     font-size: 14px;
     }
-    
+        
     .fa-camera-retro {
     margin-top: -300px;
     margin-left: 15px;
     }
-
+    
     .present {
     margin-left: 136px;
     margin-top: -127px;
     }
-        
+            
     .coment3 {
     margin-left: 135px;    
     margin-top: -95px;
     font-size: 14px;
     }
-        
+            
     .fa-gift {
     margin-top: -150px;
     margin-left: 15px;
     }
-
+    
     .all {
     width: 250px;
     margin-left: 60px;
     margin-top: 50px;
     }
-
+    
     #switch1:checked ~ #controls label:nth-child(5),
     #switch2:checked ~ #controls label:nth-child(1), 
     #switch3:checked ~ #controls label:nth-child(2),
@@ -945,7 +945,7 @@ label, a{ /*при наведении на стрелки или переклю�
     margin:-65px;
     margin-top: -30px;
     }
-
+    
     #switch1:checked ~ #controls label:nth-child(2), 
     #switch2:checked ~ #controls label:nth-child(3),
     #switch3:checked ~ #controls label:nth-child(4),
@@ -954,104 +954,104 @@ label, a{ /*при наведении на стрелки или переклю�
     margin:-65px;
     margin-top: -30px;
     }
-
+    
     .our_mission {
     margin-left: 80px;
     font-size: 30px;
     margin-top: 210px;
     }
-
+    
     .our_mission_text {
     margin-left: 7px;
     font-size: 24px;
     margin-top: 270px;
     width: 370px;
     }
-
+    
     .footer {
     height: 350px;
     width: 375px;
     margin-top: -210px;
     }
-
+    
     .footer_logo {
     font-size: 35px;
     margin-top: 10px;
     margin-left: 20px;
     }
-
+    
     .footer_info_sait1 {
     margin-top: 100px;
     margin-left: 20px;
     font-size: 20px;
     }
-
+    
     .footer_info_sait2 {
     margin-top: 140px;
     margin-left: 20px;
     font-size: 20px;
     }
-
+    
     .footer_info_sait3 {
     margin-top: 180px;
     margin-left: 20px;
     font-size: 20px;
     }
-
+    
     .footer_info_sait4 {
     margin-top: 220px;
     margin-left: 20px;
     font-size: 20px;
     }
-            
+                
     .footer_info_sait5 {
     margin-top: 260px;
     margin-left: 20px;
     font-size: 20px;
     }  
-    
+        
     .footer_info1{
     font-size: 18px;
     margin-left: 180px;
     margin-top: 40px;
     }
-
+    
     .footer_info2{
     font-size: 18px;
     margin-left: 180px;
     margin-top: 100px;
     }
-
+    
     .footer_info3{
     font-size: 18px;
     margin-left: 180px;
     margin-top: 180px;
     }
-
+    
     .footer_info4{
     font-size: 18px;
     margin-left: 180px;
     margin-top: 240px;
     }
-
+    
     .fa-whatsapp {
     font-size: 45px;
     margin-top: -50px;
     margin-left: 180px;
     }
-
+    
     .fa-instagram {
     font-size: 45px;
     margin-top: -50px;
     margin-left: 300px;
     }
-
+    
     .fa-vk {
-    font-size: 45px;
+    font-size: 45px;      
     margin-top: -50px;
     margin-left: 240px;
     }
-}
+    }
 
 
 
