@@ -44,12 +44,12 @@ h2{
 
 .buy {
     background: transparent;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 20px;
+    padding: 15px;
     display: block;
-    width: 216px;
+    width: 200px;
     text-align: center;
     position: absolute;
     margin-top: -280px;
@@ -84,7 +84,7 @@ h2{
 
 .modal-dialog {
       width: 450px;
-      margin: 250px auto; /* отображение окна по центру */
+      margin: 200px auto; /* отображение окна по центру */
 }
 
 /* Стили для блока с контентом окна */ 
