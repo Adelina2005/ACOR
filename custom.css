@@ -1,5 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background: url(imgonline-com-ua-Resize-aodNpEnaiDm23E.jpg);
+    background: #e6bdbd;
 }
 
 .navbar-brand {
@@ -13,22 +19,71 @@ body {
 .position-absolute{
     font-family: 'Aboreto', cursive;
     position: absolute;
-    margin-left: 50px;
+    margin-left: 500px;
     font-size: 40px;
-    margin-top: 50px;
-    color: white;
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
 }
 
 .text-break{
     font-family: 'Aboreto', cursive;
     position: absolute;
-    margin-left: 50px;
+    margin-left: 500px;
     font-size: 30px;
-    margin-top: 150px;
+    margin-top: 200px;
     color: rgb(255, 255, 255); 
 }
 
-@media (max-width: 355px) {
+.btn.btn-outline-light.btn-lg{
+    margin-left: 500px;
+    margin-top: 440px;
+    width: 200px;
+    font-size: 25px;
+}
+
+@media (max-width: 425px){
+    .position-absolute{
+        margin-left: 20px;
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    
+    .text-break{
+        margin-left: 20px;
+        font-size: 23px;
+        margin-top: 150px;
+    } 
+
+    .btn.btn-outline-light.btn-lg {
+        margin-left: 20px;
+        width: 200px;
+        margin-top: 340px;
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 768px){
+    .position-absolute{
+        margin-left: 20px;
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    
+    .text-break{
+        margin-left: 20px;
+        font-size: 23px;
+        margin-top: 150px;
+    } 
+
+    .btn.btn-outline-light.btn-lg {
+        margin-left: 20px;
+        width: 200px;
+        margin-top: 340px;
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 375px) {
     .position-absolute{
         margin-left: 10px;
         font-size: 25px;
@@ -40,12 +95,19 @@ body {
         font-size: 20px;
         margin-top: 130px;
     } 
+
+    .btn.btn-outline-light.btn-lg {
+        margin-left: 10px;
+        width: 200px;
+        margin-top: 300px;
+        font-size: 20px;
+    }
 }
-/*
-button {
-    margin-top: 410px;
-    margin-left: 50px;
-}
+
+
+
+
+
 
 
 
