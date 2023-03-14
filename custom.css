@@ -19,7 +19,7 @@ body {
 .position-absolute{
     font-family: 'Aboreto', cursive;
     position: absolute;
-    margin-left: 460px;
+    margin-left: 60px;
     font-size: 40px;
     margin-top: 100px;
     color: rgb(255, 255, 255);
@@ -34,6 +34,18 @@ body {
     color: rgb(255, 255, 255); 
 }
 
+.modal-content {
+    background: rgb(255, 228, 228);
+    color: black;
+}
+
+.modal-title {
+    font-size: 30px;
+}
+
+.name {
+    font-size: 20px;
+}
 
 .btn.btn-outline-light.btn-lg{
     margin-left: 460px;
@@ -63,114 +75,6 @@ body {
     font-size: 35px;
 }
 
-/*
-
-@media (min-width: 1400px){
-    .position-absolute{
-        margin-left: 190px;
-        font-size: 30px;
-        margin-top: 50px;
-    }
-    
-    .text-break{
-        margin-left: 190px;
-        font-size: 25px;
-        margin-top: 130px;
-    } 
-
-    .btn.btn-outline-light.btn-lg {
-        margin-left: 190px;
-        width: 200px;
-        margin-top: 350px;
-        font-size: 25px;
-    }
-}
-
-@media (min-width: 1200px){
-    .position-absolute{
-        margin-left: 190px;
-        font-size: 30px;
-        margin-top: 50px;
-    }
-    
-    .text-break{
-        margin-left: 190px;
-        font-size: 25px;
-        margin-top: 130px;
-    } 
-
-    .btn.btn-outline-light.btn-lg {
-        margin-left: 190px;
-        width: 200px;
-        margin-top: 350px;
-        font-size: 25px;
-    }
-}
-
-@media (min-width: 992px){
-    .position-absolute{
-        margin-left: 190px;
-        font-size: 30px;
-        margin-top: 50px;
-    }
-    
-    .text-break{
-        margin-left: 190px;
-        font-size: 25px;
-        margin-top: 130px;
-    } 
-
-    .btn.btn-outline-light.btn-lg {
-        margin-left: 190px;
-        width: 200px;
-        margin-top: 350px;
-        font-size: 25px;
-    }
-}
-
-@media (min-width: 768px){
-    .position-absolute{
-        margin-left: 190px;
-        font-size: 30px;
-        margin-top: 50px;
-    }
-    
-    .text-break{
-        margin-left: 190px;
-        font-size: 25px;
-        margin-top: 130px;
-    } 
-
-    .btn.btn-outline-light.btn-lg {
-        margin-left: 190px;
-        width: 200px;
-        margin-top: 350px;
-        font-size: 25px;
-    }
-}
-
-@media (min-width: 576px){
-    .position-absolute{
-        margin-left: 10px;
-        font-size: 90px;
-        margin-top: 50px;
-    }
-    
-    .text-break{
-        margin-left: 10px;
-        font-size: 20px;
-        margin-top: 130px;
-    } 
-
-    .btn.btn-outline-light.btn-lg {
-        margin-left: 10px;
-        width: 200px;
-        margin-top: 300px;
-        font-size: 20px;
-    }
-}
-*/
- 
 @media (max-width: 576px){
     .position-absolute{
         margin-left: 10px;
@@ -219,53 +123,165 @@ body {
     }
 }
 
-/*
-@media (max-width: 425px){
+@media (min-width: 576px){
     .position-absolute{
-        margin-left: 20px;
+        font-family: 'Aboreto', cursive;
+        position: absolute;
+        margin-left: 50px;
+        font-size: 40px;
+        margin-top: 100px;
+        color: rgb(255, 255, 255);
+    }
+
+    .text-break{
+        font-family: 'Aboreto', cursive;
+        position: absolute;
+        margin-left: 50px;
         font-size: 30px;
-        margin-top: 50px;
+        margin-top: 200px;
+        color: rgb(255, 255, 255); 
     }
     
-    .text-break{
-        margin-left: 20px;
-        font-size: 23px;
-        margin-top: 150px;
-    } 
-
-    .btn.btn-outline-light.btn-lg {
-        margin-left: 20px;
+    
+    .btn.btn-outline-light.btn-lg{
+        margin-left: 50px;
+        margin-top: 430px;
         width: 200px;
-        margin-top: 340px;
-        font-size: 23px;
-    }
-}
-
-@media (max-width: 375px) {
-    .position-absolute{
-        margin-left: 10px;
         font-size: 25px;
-        margin-top: 50px;
+    } 
+    
+    .card-title {
+        font-size: 25px;
     }
     
-    .text-break{
-        margin-left: 10px;
-        font-size: 20px;
-        margin-top: 130px;
-    } 
-
-    .btn.btn-outline-light.btn-lg {
-        margin-left: 10px;
-        width: 200px;
-        margin-top: 300px;
-        font-size: 20px;
+    .card-text {
+        font-size: 17px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    
+    .card-text.two {
+        margin-top: 0px;
+        font-size: 35px;
     }
 }
 
 
+@media (min-width: 768px){
+    .position-absolute{
+        font-family: 'Aboreto', cursive;
+        position: absolute;
+        margin-left: 140px;
+        font-size: 40px;
+        margin-top: 100px;
+        color: rgb(255, 255, 255);
+    }
 
+    .text-break{
+        font-family: 'Aboreto', cursive;
+        position: absolute;
+        margin-left: 140px;
+        font-size: 30px;
+        margin-top: 200px;
+        color: rgb(255, 255, 255); 
+    }
+    
+    
+    .btn.btn-outline-light.btn-lg{
+        margin-left: 140px;
+        margin-top: 430px;
+        width: 200px;
+        font-size: 25px;
+    } 
+}
 
+@media (min-width: 992px){
+    .position-absolute{
+        font-family: 'Aboreto', cursive;
+        position: absolute;
+        margin-left: 270px;
+        font-size: 40px;
+        margin-top: 100px;
+        color: rgb(255, 255, 255);
+    }
 
+    .text-break{
+        font-family: 'Aboreto', cursive;
+        position: absolute;
+        margin-left: 270px;
+        font-size: 30px;
+        margin-top: 200px;
+        color: rgb(255, 255, 255); 
+    }
+    
+    
+    .btn.btn-outline-light.btn-lg{
+        margin-left: 270px;
+        margin-top: 430px;
+        width: 200px;
+        font-size: 25px;
+    } 
+}
+
+@media (min-width: 1200px){
+    .position-absolute{
+        font-family: 'Aboreto', cursive;
+        position: absolute;
+        margin-left: 380px;
+        font-size: 40px;
+        margin-top: 100px;
+        color: rgb(255, 255, 255);
+    }
+
+    .text-break{
+        font-family: 'Aboreto', cursive;
+        position: absolute;
+        margin-left: 380px;
+        font-size: 30px;
+        margin-top: 200px;
+        color: rgb(255, 255, 255); 
+    }
+    
+    
+    .btn.btn-outline-light.btn-lg{
+        margin-left: 380px;
+        margin-top: 430px;
+        width: 200px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1400px){
+    .position-absolute{
+        font-family: 'Aboreto', cursive;
+        position: absolute;
+        margin-left: 450px;
+        font-size: 40px;
+        margin-top: 100px;
+        color: rgb(255, 255, 255);
+    }
+
+    .text-break{
+        font-family: 'Aboreto', cursive;
+        position: absolute;
+        margin-left: 450px;
+        font-size: 30px;
+        margin-top: 200px;
+        color: rgb(255, 255, 255); 
+    }
+    
+    
+    .btn.btn-outline-light.btn-lg{
+        margin-left: 450px;
+        margin-top: 430px;
+        width: 200px;
+        font-size: 25px;
+    }
+
+    .col-md-4.col-sm-12.a {
+        margin-top: 200px; 
+    }
+}
 
 
 
