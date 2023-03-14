@@ -220,30 +220,36 @@ body {
     .Quality_assurance{
         margin-top: -180px;
         font-size: 18px; 
-     }
+        margin-left: 95px;
+    }
 
     .coment1 {
         margin-top: -147px;
+        margin-left: 95px;
     }
 
     .Photo_report {
         margin-top: -187px;
+        margin-left: 100px;
     }
 
     .coment2 {
         width: 208px;
         font-size: 13px;
         margin-top: -167px;
+        margin-left: 100px;
     }
 
     .present {
         margin-top: -167px;
+        margin-left: 105px;
     }
 
     .coment3 {
         width: 200px;
         font-size: 14px;
         margin-top: -147px;
+        margin-left: 105px;
     }
 }
 
