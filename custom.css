@@ -253,6 +253,47 @@ body {
     }
 }
 
+@media (min-width: 375px){
+    .fa-check-square {
+        margin-left: 5px;
+    }
+
+    .Quality_assurance{
+        margin-top: -180px;
+        font-size: 18px; 
+        margin-left: 110px;
+    }
+
+    .coment1 {
+        margin-top: -147px;
+        margin-left: 110px;
+    }
+
+    .Photo_report {
+        margin-top: -187px;
+        margin-left: 115px;
+    }
+
+    .coment2 {
+        width: 208px;
+        font-size: 13px;
+        margin-top: -167px;
+        margin-left: 115px;
+    }
+
+    .present {
+        margin-top: -167px;
+        margin-left: 115px;
+    }
+
+    .coment3 {
+        width: 200px;
+        font-size: 14px;
+        margin-top: -147px;
+        margin-left: 115px;
+    }
+}
+
 @media (min-width: 576px){
     .position-absolute{
         font-family: 'Aboreto', cursive;
