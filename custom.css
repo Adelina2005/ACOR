@@ -407,6 +407,10 @@ body {
         width: 200px;
         font-size: 25px;
     }
+
+    .col-md-4.col-sm-12{
+        margin-top: none; 
+    }
 }
 
 
