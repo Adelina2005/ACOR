@@ -201,7 +201,7 @@ body {
         font-size: 35px;
     }
 
-    .col-md-4.col-sm-12.facts.a{
+    .col-md-4.col-sm-12.facts.aa{
         margin-top: 250px;
     } 
     
@@ -406,10 +406,6 @@ body {
         margin-top: 430px;
         width: 200px;
         font-size: 25px;
-    }
-
-    .col-md-4.col-sm-12{
-        margin-top: none; 
     }
 }
 
