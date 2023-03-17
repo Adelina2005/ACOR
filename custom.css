@@ -54,6 +54,33 @@ body {
     font-size: 25px;
 }
 
+.photo1.img-fluid{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    height: auto;
+    margin-top: 200px;
+    margin-left: 0px;
+}
+
+.about_us{
+    font-family: 'Aboreto', cursive;
+    margin-left: 200px;
+    font-size: 35px;
+    margin-top: 200px;
+    color: rgb(255, 253, 253);
+    text-decoration: underline;
+}
+
+.info_about_us{
+    font-family: 'Aboreto', cursive;
+    margin-left: 5px;
+    font-size: 30px;
+    margin-top: 50px;
+    color: rgb(255, 251, 251);
+    width: 750px;
+}
+
 .col-md-4.col-sm-12{
     display: flex;
     margin-top: 200px; 
@@ -174,7 +201,7 @@ body {
     }
 
     .col-md-4.col-sm-12.a {
-        margin-top: 70px; 
+        margin-top: 50px; 
     }
 
     .col-md-4.col-sm-12.b {
@@ -251,6 +278,28 @@ body {
         margin-top: -147px;
         margin-left: 105px;
     }
+
+    .photo1.img-fluid{
+        width: 400px;
+        height: 400px;
+        margin-top: 220px;
+        margin-left: 0px;
+    }
+    
+    .about_us{
+        margin-left: 50px;
+        font-size: 35px;
+        margin-top: 45px;
+        color: rgb(255, 253, 253);
+    }
+    
+    .info_about_us{
+        margin-left: 5px;
+        font-size: 20px;
+        margin-top: 20px;
+        color: rgb(255, 251, 251);
+        width: 300px;
+    }
 }
 
 @media (min-width: 375px){
@@ -291,6 +340,25 @@ body {
         font-size: 14px;
         margin-top: -147px;
         margin-left: 115px;
+    }
+
+    
+    .photo1.img-fluid{
+        width: 400px;
+        height: 400px;
+        margin-top: 220px;
+    }
+    
+    .about_us{
+        margin-left: 80px;
+        font-size: 35px;
+        margin-top: 45px;
+    }
+    
+    .info_about_us{
+        font-size: 20px;
+        margin-top: 20px;
+        width: 350px;
     }
 }
 
@@ -447,6 +515,33 @@ body {
         margin-top: 430px;
         width: 200px;
         font-size: 25px;
+    }
+
+    .photo1.img-fluid{
+        width: 400px;
+        height: 400px;
+        display: inline-block;
+        height: auto;
+        margin-top: 200px;
+        margin-left: 0px;
+    }
+    
+    .about_us{
+        font-family: 'Aboreto', cursive;
+        margin-left: 200px;
+        font-size: 35px;
+        margin-top: 200px;
+        color: rgb(255, 253, 253);
+        text-decoration: underline;
+    }
+    
+    .info_about_us{
+        font-family: 'Aboreto', cursive;
+        margin-left: 5px;
+        font-size: 30px;
+        margin-top: 50px;
+        color: rgb(255, 251, 251);
+        width: 750px;
     }
 }
 
