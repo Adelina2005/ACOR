@@ -104,6 +104,7 @@ body {
 
 .col-md-4.col-sm-12.facts {
     margin-top: 350px;
+    margin-bottom: 50px;
 }
 
 .fa-check-square{
@@ -179,6 +180,22 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.our_mission {
+    font-size: 40px;
+    margin-left: 200px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-family: 'Aboreto', cursive;
+}
+
+.our_mission_text {
+    font-size: 35px;
+    margin-left: 70px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    width: 700px;
+}
 
 @media (max-width: 576px){
     .position-absolute{
@@ -209,7 +226,7 @@ body {
 
     
     .col-md-4.col-sm-12.c {
-        margin-top: 50px; 
+        margin-top: 50px;
     }
     
     .card-title {
