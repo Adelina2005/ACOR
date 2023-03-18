@@ -245,15 +245,16 @@ body {
     }
 
     .col-md-4.col-sm-12.facts.aa{
-        margin-top: 250px;
+        margin-top: 230px;
     } 
     
     .col-md-4.col-sm-12.facts.b{
-        margin-top: 150px;
+        margin-top: 100px;
     }
 
     .col-md-4.col-sm-12.facts.c{
-        margin-top: 150px;
+        margin-top: 100px;
+        margin-bottom: -30px;
     }
 
     .fa-check-square {
@@ -315,6 +316,23 @@ body {
         margin-top: 20px;
         color: rgb(255, 251, 251);
         width: 300px;
+    }
+
+    .our_mission {
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-family: 'Aboreto', cursive;
+    }
+
+   .our_mission_text {
+    font-size: 25px;
+    margin-left: 0px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    width: 300px;
     }
 }
 
