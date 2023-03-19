@@ -197,6 +197,7 @@ body {
     width: 700px;
 }
 
+
 @media (max-width: 576px){
     .position-absolute{
         margin-left: 10px;
@@ -274,26 +275,26 @@ body {
 
     .Photo_report {
         margin-top: -180px;
-        margin-left: 110px;
+        margin-left: 105px;
     }
 
     .coment2 {
-        width: 208px;
+        width: 200px;
         font-size: 15px;
         margin-top: -150px;
-        margin-left: 110px;
+        margin-left: 105px;
     }
 
     .present {
         margin-top: -165px;
-        margin-left: 110px;
+        margin-left: 105px;
     }
 
     .coment3 {
         width: 200px;
         font-size: 15px;
         margin-top: -135px;
-        margin-left: 110px;
+        margin-left: 105px;
     }
 
     .photo1.img-fluid{
@@ -319,22 +320,23 @@ body {
     }
 
     .our_mission {
-    font-size: 30px;
-    margin-left: 40px;
-    margin-top: 30px;
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-    font-family: 'Aboreto', cursive;
+        font-size: 30px;
+        margin-left: 40px;
+        margin-top: 30px;
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+        font-family: 'Aboreto', cursive;
     }
-
-   .our_mission_text {
-    font-size: 25px;
-    margin-left: 0px;
-    margin-top: 20px;
-    color: rgb(255, 255, 255);
-    width: 300px;
+    
+    .our_mission_text {
+        font-size: 25px;
+        margin-left: 0px;
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+        width: 300px;
     }
 }
+
 
 @media (min-width: 375px){
     .fa-check-square {
@@ -707,7 +709,7 @@ body {
     .fa-check-square{
         font-size: 100px;
         position: absolute;
-        margin-top: -200px;
+        margin-top: -150px;
         margin-left: 0px;
     }
     
@@ -716,7 +718,7 @@ body {
         position: absolute;
         margin-left: 90px;
         font-size: 20px;
-        margin-top: -180px;
+        margin-top: -130px;
         color: rgb(255, 255, 255);
     }
     
@@ -725,14 +727,14 @@ body {
         position: absolute;
         margin-left: 90px;
         font-size: 15px;
-        margin-top: -150px;
+        margin-top: -100px;
         color: rgb(255, 255, 255);
     }
     
     .fa-camera-retro {
         font-size: 100px;
         position: absolute;
-        margin-top: -100px;
+        margin-top: -50px;
         margin-left: 0px;
     }
     
@@ -741,7 +743,7 @@ body {
         position: absolute;
         margin-left: 105px;
         font-size: 20px;
-        margin-top: -80px;
+        margin-top: -30px;
         color: rgb(255, 255, 255);
     }
     
@@ -750,7 +752,7 @@ body {
         position: absolute;
         margin-left: 105px;
         font-size: 15px;
-        margin-top: -50px;
+        margin-top: -0px;
         color: rgb(255, 255, 255);
         width: 200px;
     }
@@ -758,7 +760,7 @@ body {
     .fa-gift {
         font-size: 100px;
         position: absolute;
-        margin-top: -100px;
+        margin-top: -50px;
         margin-left: 0px;
     }
     
@@ -767,7 +769,7 @@ body {
         position: absolute;
         margin-left: 105px;
         font-size: 20px;
-        margin-top: -75px;
+        margin-top: -25px;
         color: rgb(255, 255, 255);
     }
     
@@ -776,19 +778,19 @@ body {
         position: absolute;
         margin-left: 105px;
         font-size: 15px;
-        margin-top: -50px;
+        margin-top: -0px;
         color: rgb(255, 255, 255);
         width: 200px;
     }
 
     .carousel.slide.carousel-fade {
-        margin-top: -100px;
+        margin-top: -0px;
     }
 
     .our_mission {
         font-size: 30px;
         margin-left: 120px;
-        margin-top: -60px;
+        margin-top: 30px;
         color: rgb(255, 255, 255);
         text-decoration: underline;
         font-family: 'Aboreto', cursive;
@@ -945,7 +947,7 @@ body {
     .position-absolute{
         font-family: 'Aboreto', cursive;
         position: absolute;
-        margin-left: 450px;
+        margin-left: 400px;
         font-size: 40px;
         margin-top: 100px;
         color: rgb(255, 255, 255);
@@ -954,7 +956,7 @@ body {
     .text-break{
         font-family: 'Aboreto', cursive;
         position: absolute;
-        margin-left: 450px;
+        margin-left: 400px;
         font-size: 30px;
         margin-top: 200px;
         color: rgb(255, 255, 255); 
@@ -962,7 +964,7 @@ body {
     
     
     .btn.btn-outline-light.btn-lg{
-        margin-left: 450px;
+        margin-left: 400px;
         margin-top: 430px;
         width: 200px;
         font-size: 25px;
