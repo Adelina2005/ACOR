@@ -538,6 +538,23 @@ body {
         margin-top: -135px;
         margin-left: 220px;
     }
+
+    .our_mission {
+        font-size: 30px;
+        margin-left: 135px;
+        margin-top: 30px;
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+        font-family: 'Aboreto', cursive;
+        }
+    
+    .our_mission_text {
+        font-size: 30px;
+        margin-left: 0px;
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+        width: 550px;
+        }
 }
 
 
@@ -637,6 +654,27 @@ body {
         margin-top: 95px;
         margin-left: -5px;
     }
+
+    .carousel.slide.carousel-fade {
+        margin-top: 50px;
+    }
+
+    .our_mission {
+        font-size: 25px;
+        margin-left: 100px;
+        margin-top: 60px;
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+        font-family: 'Aboreto', cursive;
+        }
+    
+    .our_mission_text {
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 0px;
+        color: rgb(255, 255, 255);
+        width: 350px;
+        }
 }
 
 @media (min-width: 992px){
@@ -742,6 +780,27 @@ body {
         color: rgb(255, 255, 255);
         width: 200px;
     }
+
+    .carousel.slide.carousel-fade {
+        margin-top: -100px;
+    }
+
+    .our_mission {
+        font-size: 30px;
+        margin-left: 120px;
+        margin-top: -60px;
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+        font-family: 'Aboreto', cursive;
+        }
+    
+    .our_mission_text {
+        font-size: 25px;
+        margin-left: 70px;
+        margin-top: 0px;
+        color: rgb(255, 255, 255);
+        width: 400px;
+        }
 }
 
 @media (min-width: 1200px){
@@ -859,6 +918,27 @@ body {
         color: rgb(255, 255, 255);
         width: 260px;
     }
+
+    .carousel.slide.carousel-fade {
+        margin-top: -0px;
+    }
+
+    .our_mission {
+        font-size: 30px;
+        margin-left: 220px;
+        margin-top: 40px;
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+        font-family: 'Aboreto', cursive;
+        }
+    
+    .our_mission_text {
+        font-size: 30px;
+        margin-left: 50px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+        width: 600px;
+    }
 } 
 
 @media (min-width: 1400px){
@@ -915,6 +995,22 @@ body {
         width: 750px;
     }
 
+    .our_mission {
+        font-size: 40px;
+        margin-left: 240px;
+        margin-top: 50px;
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+        font-family: 'Aboreto', cursive;
+    }
+    
+    .our_mission_text {
+        font-size: 35px;
+        margin-left: 70px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+        width: 700px;
+    }
 }
 
 
